@@ -1,0 +1,148 @@
+/* body{
+  text-align: center;
+  background-color: #ff99cc;
+  color:white;
+  font-style: helvetica;
+}
+#add{
+  background-color: red;
+  border: 0;
+  color: white;
+  padding:10px 10px;
+  padding-right: 40px;
+  cursor: pointer;
+  margin-top: 35px;
+}
+.remove{
+  margin-top: 35px;
+  background-color: #f2f205;
+  float: right;
+  clear: both;
+  padding-right: 20px;
+  border-radius: 5px;
+  width:60px;
+  height: 20px;
+  border-style: 25px;
+}
+.todolist{
+  width:450px;
+  background-color: #000365;
+  margin-top: 100px;
+  margin-left: 300px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-right: 70px;
+  border-radius: 25px;
+
+}
+ul{
+  list-style: none;
+  text-align: left;
+  line-height: 40px;
+}
+#task{
+  width:350px;
+  height: 40px;
+  margin-left: 20px;
+}
+h1{
+  margin-left: 40px;
+} */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#FEFBE7;
+  min-height: 100vh;
+}
+.notcomp{
+  background-color:#AC7D88;
+  width:450px;
+
+  margin-top: 60px;
+  margin-left: 250px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-right: 70px;
+  border-radius: 25px;
+
+}
+.comp{
+  background-color: #AC7D88;
+  width:450px;
+
+  margin-top: 60px;
+  margin-left: 250px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-right: 70px;
+  border-radius: 25px;
+}
+h1{
+  text-align: center;
+  font-family: Comic Sans MS;
+  margin-bottom: 30px;
+}
+/* h3{
+  color:#85586F;
+  padding:50px;
+} */
+h2{
+  font-family: Comic Sans MS;
+}
+.container{
+  padding-top: 100px;
+  padding-bottom: 500px;
+ margin-top: 100px;
+  margin-left: 250px;
+  margin-bottom: 100px;
+  background-color: #DEB6AB;
+  max-width: 800px;
+border-radius: 25px;
+  padding: 10px;
+}
+
+.txtb{
+  width: 100%;
+  border-radius: 100px;
+  border-bottom: 2px solid #000;
+  background-color: #DEB6AB;
+  padding: 10px 10px;
+  padding-right: 40px;
+  outline: none;
+  font-size: 18px;
+
+
+}
+
+h3{
+  margin: 10px 0;
+}
+
+.task{
+  width: 100%;
+  background: rgba(255,255,255,0.5);
+  padding: 18px;
+  margin: 6px 0;
+  overflow: hidden;
+}
+
+.task i{
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.comp .task{
+  background: rgba(0,0,0,.5);
+  color: #fff;
+}
